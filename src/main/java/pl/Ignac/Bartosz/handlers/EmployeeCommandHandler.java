@@ -50,7 +50,6 @@ public class EmployeeCommandHandler extends BaseCommandHandler {
 
                 String employeeName = command.getParam().get(0);
                 String employeeSurname = command.getParam().get(1);
-                //Todo validate ID number
                 int employeeId = Integer.parseInt(command.getParam().get(2));
 
                 employeeDao.add(new Employee(employeeName, employeeSurname, employeeId));

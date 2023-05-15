@@ -8,7 +8,6 @@ import pl.Ignac.Bartosz.model.Employee;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.*;
@@ -45,9 +44,9 @@ public class DepartmentDao {
 
     public void add(Department department) {
 
-            List<Department> departments = getDepartments();
-            departments.add(department);
-            saveDepartment(departments);
+        List<Department> departments = getDepartments();
+        departments.add(department);
+        saveDepartment(departments);
     }
 
     private void saveDepartment(List<Department> departments)  {

@@ -3,7 +3,6 @@ package pl.Ignac.Bartosz;
 import pl.Ignac.Bartosz.handlers.*;
 import pl.Ignac.Bartosz.input.UserInputCommand;
 import pl.Ignac.Bartosz.input.UserInputManager;
-import pl.Ignac.Bartosz.model.Employee;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -2,13 +2,11 @@ package pl.Ignac.Bartosz.dao;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import pl.Ignac.Bartosz.model.Department;
 import pl.Ignac.Bartosz.model.Employee;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
@@ -52,7 +50,6 @@ public class EmployeeDao {
     }
 
     public void add(Employee employee) {
-
 
         List<Employee> employees = getEmployees();
         employees.add(employee);
