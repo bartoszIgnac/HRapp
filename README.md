@@ -6,7 +6,6 @@ Prosta aplikacja kadrowa
 * [Informacje ogólne](#informacje-ogólne)
 * [Zastosowane technologie](#zastosowane-technologie)
 * [Wymagane aplikacje/narzędzia](#wymagane-aplikacjenarzędzia)
-* [Ustawienia](#ustawienia)
 * [Autor](#autor)
 
 ## Informacje ogólne
