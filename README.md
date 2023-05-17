@@ -34,7 +34,6 @@ Do uruchomienia aplikacji wymagana jest instalacja następujących narzędzi:
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/),
 - [Java ](https://openjdk.org/projects/jdk/19/)
 - [Maven](https://maven.apache.org/download.cgi),
-- [Docker](https://docs.docker.com/get-docker/)
 
 ## Autor
 
